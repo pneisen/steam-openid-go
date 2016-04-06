@@ -1,0 +1,12 @@
+<html>
+  <head><title>Steam OpenID</title></head>
+  <body>
+    {{if .user}}
+      <p>{{.user}} logged in</p>
+    {{else}}
+      <a href="/discover">
+        <img alt="Sign in through Steam" src="http://steamcommunity-a.akamaihd.net/public/images/signinthroughsteam/sits_small.png" />
+      </a>
+    {{end}}
+  </body>
+</html>

@@ -4,6 +4,7 @@ A simple example of how to connect to Steam's [OpenID API](http://steamcommunity
 and the [github.com/yohcop/openid-go](https://github.com/yohcop/openid-go) library.
 
 ## To Run:
-- go get github.com/yohcop/openid-go
-- go run main.go
+- go mod tidy
+- go build
+- ./steam-openid-go
 - Browse to http://localhost:8080
